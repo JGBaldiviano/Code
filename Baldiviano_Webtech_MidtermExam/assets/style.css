@@ -1,0 +1,230 @@
+html {
+  border: 5px solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top-color: blue;
+}
+
+body {
+  font-family: sans-serif;
+  width: 700px;
+  margin: auto;
+}
+
+.header-container {
+  width: 230px;
+  float: left;
+  color: darkcyan;
+  padding: 0px 0px;
+  padding-right: 0px;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-left: 30px;
+}
+
+.header-container nav a:link {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.header-container nav p {
+  text-indent: 15px;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.header-container nav a:active {
+  color: red;
+}
+
+.header-container nav a:hover {
+  color: violet;
+}
+
+.header-container nav a:visited {
+  color: green;
+}
+
+.article-container {
+  width: 400px;
+  float: right;
+  top: 20px;
+  position: relative;
+}
+
+h2 {
+  color: darkcyan;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.TOP {
+  float: right;
+  border: none;
+  padding: 2px 5px;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: gold;
+}
+
+.TOP:hover {
+  background-color: violet;
+}
+
+.article-container p {
+  font-size: 12px;
+  width: 380px;
+}
+
+.article-container li {
+  font-size: 12px;
+}
+
+.pdesign {
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+
+h3 {
+  color: darkcyan;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.aside-container1 {
+  position: relative;
+  background-color: whitesmoke;
+  border-top: 5px solid darkcyan;
+  border-bottom: 5px solid brown;
+  border-left: 0px;
+  border-right: 0px;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 210px;
+  float: left;
+}
+
+.h4 {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.aside-container1 nav a:link {
+  font-size: 12px;
+  font-weight: bolder;
+  color: darkcyan;
+  float: left;
+  clear: left;
+  text-decoration: none;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.aside-container2 {
+  top: 10px;
+  position: relative;
+  background-color: whitesmoke;
+  border-top: 5px solid darkcyan;
+  border-bottom: 5px solid darkcyan;
+  border-left: 0px;
+  border-right: 0px;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 210px;
+  float: left;
+}
+
+.HOT {
+  overflow-inline: 0px;
+
+  float: right;
+  border: none;
+  padding: 2px 5px;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: gold;
+}
+
+.HOT:hover {
+  background-color: violet;
+}
+
+.image {
+  float: left;
+  margin-right: 5%;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.aside-container2 a:link {
+  color: darkcyan;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.aside-container2 p {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.button1 {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button1:hover {
+  background-color: violet;
+}
+
+.button2 {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button2:hover {
+  background-color: violet;
+}
+
+.footer-container {
+  top: 20px;
+  position: relative;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 210px;
+  float: left;
+}
+
+.footer-container p {
+  font-size: 10px;
+  padding-top: 20px;
+}
