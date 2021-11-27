@@ -1,0 +1,58 @@
+1.Differentiate the following CSS selectors (20 pts)
+a.Combining selectors
+b.Class and ID selectors
+c.Pseudo-classes
+
+Combining selectors
+Combining Selectors can contain more than one simple selector. Between the simple selectors, we can include a combinator. 
+Like first the Descendant Selector (space) which is used to matche all elements that are descendants of a specified element,
+second is the Child Selector (>) which is used to select all elements that are the children of a specified element,
+third is the Adjacent Sibling Selector (+) which is used to select an element that is directly after another specific element. 
+Moreover, Sibling elements must have the same parent element, and "adjacent" means "immediately following",
+and lastly the General Sibling Selector (~) which is used to select all elements that are next siblings of a specified element.
+
+Class and ID selectors
+An ID selector is a name preceded by a hash character (“#”).
+Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document. 
+Syntax: #idname For Example: #toc will match the element that has the ID "toc".
+In addition, It matches an element based on the value of the element’s id attribute and
+In order for the element to be selected, its id attribute must match exactly the value given in the selector.
+While, Class Selectors, selects all elements that have the given class attribute. 
+Syntax: .classname For Example: .index will match any element that has a class of "index". 
+n addition, it matches elements based on the contents of their class attribute.
+However, the difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+
+Pseudo-classes
+Psuedo-classes is a keyword added to a selector that specifies a special state of the selected element(s).
+The (":") pseudo allow the selection of elements based on state information that is not contained in the document tree. 
+For Example: a:visited will match all <a> elements that have been visited by the user. 
+While The ("::") pseudo represent entities that are not included in HTML. 
+For Example: p::first-line will match the first line of all <p> elements.
+
+Also the Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, 
+but also in relation to external factors like the history of the navigator (:visited, for example), 
+the status of its content (like :checked on certain form elements), or the position of the mouse 
+(like :hover, which lets you know if the mouse is over an element or not).
+
+
+2.Differentiate the following hyperlinks styling attributes (20pts)
+a.a:hover
+b.a:active
+c.a:visited
+d.a:link
+
+The difference between these 4 hyperlinks styling attributes is that :
+
+a:hover - We can use a:hover not only to style links but also other elements.
+It matches when the user interacts with a link or an element with a pointing device/cursor, but does not necessarily activate it. 
+Moreover, It is generally triggered when the user hovers over an element with the cursor (mouse pointer).
+
+a:active - We can be use a:active if we want to style our links when being clicked. 
+Thus, a:active can change the appearance of a link while it is being activated (being clicked on or otherwise activated). 
+It's usually only seen for a split second, and provides visual feedback that the element was indeed clicked. 
+
+a:visited - We can used a:visited to design/change the color of a link if it is visited because Therefore, 
+a:visited represents links that the user has already visited.
+
+a:link - Is just a normal and unvisited link however we can use 
+a:link in css to design or style all the links in html or in a specific container.
